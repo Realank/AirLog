@@ -22,7 +22,7 @@
     [AirLogClientLib client].delegate = self;
 }
 
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+- (IBAction)sendAirLog:(id)sender {
     AirLog(@"Hello World");
 }
 
