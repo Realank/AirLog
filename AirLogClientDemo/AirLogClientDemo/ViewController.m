@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [[AirLogClientLib client] holdForServerWithPort:8001];
+    [[AirLogClientLib client] holdForServerWithPort:9000];
     [AirLogClientLib client].delegate = self;
 }
 
