@@ -50,7 +50,7 @@ In your code, you should:
 3) init the AirLogClientLib instant, assign a port and set the delegate
 
 ```
-[[AirLogClientLib client] holdForServerWithPort:8001];
+[[AirLogClientLib client] holdForServerWithPort:9000];
     [AirLogClientLib client].delegate = self;
 ```
 
