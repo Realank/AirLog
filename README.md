@@ -70,7 +70,7 @@ This method can tell you whether the air log is ready.
 Open the Mac app AirLogServer.app, 
 and run your iOS app to send log (eg. `AirLog(@"Hello World");`)
 
-#####4 copyleft & copyright
+### copyleft & copyright
 
 This project is inspired by http://www.oschina.net/code/snippet_260122_35359
 
